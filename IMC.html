@@ -1,0 +1,66 @@
+<!-- Ponto de esclamação = modelo pré-configurado, padrão de html -->
+<!-- Abaixo do código, esclarecimentos -->
+<!DOCTYPE html>
+<html lang="pt-BR"><!-- Originalmente, a linguagem é "en" -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title><!-- Título a critério -->
+    <!-- Adicionar link para o CSS -->
+    <link href="IMC.css"
+          rel="stylesheet"
+          type="text/css">
+    <!-- Adicionar fontes e ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>    
+    <main id="contetainer"><!-- Tag usada para indicar a sessão principal da página -->
+<!-- O main é como se fosse uma div, mas a div cria uma sessão , ja o main, indica que aquela sessão é a principal da página -->       
+        <section id="imagem"><!-- Indica uma parte específica da página -->            
+            <img src="ILUSTRAÇÃO.svg"><!-- Imagem -->        
+        </section>        
+        <section id="calculadora">            
+            <form id="formulario"><!-- Form = cria formularios a serem preenchidos -->                
+                <h1 id="titulo">Calculadora IMC</h1>                
+                <div class="input-box">                    
+                    <label for="weight">Peso em Kg:</label><!-- Facilitador de inputs -->                    
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-weight-hanging"></i><!-- icone colado -->
+                        <input type="number" id="peso" required>
+                        <span>Kg</span><!-- agrupa elementos sem quebrar a linha -->
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="height">Altura em metros</label>
+                    <div class="input-field">
+                        <i class="fa-solid fa-ruler-vertical"></i>
+                        <input type="number" id="altura" step="0.01">
+                        <span>M</span>
+                    </div>
+                </div>
+                <button id="calcular">Calcular</button>
+            </form> 
+            <div id="infos" class="escondido">
+                <div id="resultado">
+                    <div id="imc">
+                        <span id="valor"></span>
+                        <span>Seu IMC</span>
+                    </div>
+                    <div id="descricao">
+                        <span></span>
+                    </div>
+                </div>
+                <div id="mais-info">
+                    <a href="https://www.youtube.com/watch?v=wLRtHe1wpyE" target="_blank">Mais informações
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>    
+        </section>
+    </main>
+    <script src="IMC.js"></script>
+</body>
+</html>
+<!--  -->
