@@ -1,9 +1,19 @@
+<h1 align=center>Sobre o projeto:</h1>
+
+<p align=center>Realizado por Rafael Gustavo Maccari utilizando os conhecimentos adquiridos com a seguinte aula: https://www.youtube.com/watch?v=UBYqkpsafyI&list=PLVjfpwueH0XV9hES8DXY8byv2EYdb4xsO&index=1&t=323s.</p>
+
 <p align="center">
   <img src=".github/Captura de Tela (68).png" alt="Demonstração do projeto" width="100%">
 </p>
 
-⌨️ Sobre o projeto: Foi desenvolvido por Rafael Gustavo Maccari com base no seguinte vídeo: Como fazer uma calculadora de IMC RESPONSIVA com HTML, CSS e JavaScript.
+## 🛠️ Tecnologias utilizadas:
+Esse projeto foi desenvolvido com as seguintes ferramentas:
+- HTML e CSS;
+- JavaScript;
+- Git e Github.
 
-🛠️ Ferrmentas Utilizadas: HTML, CSS e Java Script.
+## ⌨️ Utilização:
+Informe seu peso e sua altura e obtenha o cálculo de seu índice de massa corporal.
 
-💼 Sobre mim: Resolvi realizar este projeto com o objetivo de por em prática os meus conhecimentos de Java Script. Ainda que básicos, possibilitaram o desenvolvimento deste projeto.
+## 🧍‍♂️Feito por:
+Rafael Gustavo Maccari em maio de 2023.
